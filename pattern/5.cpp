@@ -10,7 +10,7 @@ int main() {
             if (i==1 || i==n|| j==1 || j==n) {
                 cout << "x";
             }
-            else if (i==j) {
+            else if (i==j || i+j==n+1) {
                 cout << "a";
             }
             else {
